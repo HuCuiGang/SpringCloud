@@ -1,5 +1,6 @@
 HELP.md
 /target/
+/test/
 !.mvn/wrapper/maven-wrapper.jar
 
 ### STS ###
@@ -10,13 +11,12 @@ HELP.md
 .settings
 .springBeans
 .sts4-cache
-log
 ### IntelliJ IDEA ###
 .idea
 *.iws
 *.iml
 *.ipr
-
+*.log
 ### NetBeans ###
 /nbproject/private/
 /nbbuild/
@@ -24,6 +24,5 @@ log
 /nbdist/
 /.nb-gradle/
 /build/
-/.idea/
 ### VS Code ###
 .vscode/

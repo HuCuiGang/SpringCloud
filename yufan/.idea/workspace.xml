@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0199130-40e7-40f5-82d1-9f06c8203f2a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/yufan_item/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/yufan_item/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/yufan_api/yufan_user_api/target/" />
     <ignored path="$PROJECT_DIR$/yufan_api/yufan_item_api/target/" />
@@ -27,27 +27,9 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yufan_user/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yufan_registry/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/yufan_item/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" column="15" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/yufan_cart/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -64,9 +46,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="169" />
-    <option name="y" value="165" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="959" />
+    <option name="y" value="209" />
     <option name="width" value="1229" />
     <option name="height" value="841" />
   </component>
@@ -87,82 +69,28 @@
             <path>
               <item name="yufan_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="yufan" type="462c0819:PsiDirectoryNode" />
-              <item name="yufan_item" type="462c0819:PsiDirectoryNode" />
+              <item name="yufan_cart" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yufan_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="yufan" type="462c0819:PsiDirectoryNode" />
-              <item name="yufan_item" type="462c0819:PsiDirectoryNode" />
+              <item name="yufan_cart" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yufan_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="yufan" type="462c0819:PsiDirectoryNode" />
-              <item name="yufan_item" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yufan_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yufan" type="462c0819:PsiDirectoryNode" />
-              <item name="yufan_item" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yufan_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yufan" type="462c0819:PsiDirectoryNode" />
-              <item name="yufan_order" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yufan_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yufan" type="462c0819:PsiDirectoryNode" />
-              <item name="yufan_pay" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yufan_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yufan" type="462c0819:PsiDirectoryNode" />
-              <item name="yufan_registry" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yufan_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yufan" type="462c0819:PsiDirectoryNode" />
-              <item name="yufan_registry" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yufan_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yufan" type="462c0819:PsiDirectoryNode" />
-              <item name="yufan_registry" type="462c0819:PsiDirectoryNode" />
+              <item name="yufan_cart" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="yufan_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="yufan" type="462c0819:PsiDirectoryNode" />
-              <item name="yufan_registry" type="462c0819:PsiDirectoryNode" />
+              <item name="yufan_cart" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yufan_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yufan" type="462c0819:PsiDirectoryNode" />
-              <item name="yufan_sms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yufan_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yufan" type="462c0819:PsiDirectoryNode" />
-              <item name="yufan_sms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yufan_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yufan" type="462c0819:PsiDirectoryNode" />
-              <item name="yufan_sms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -174,7 +102,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554208917056" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554210634224" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -242,15 +170,15 @@
       <option name="presentableId" value="Default" />
       <updated>1554123774462</updated>
       <workItem from="1554123779548" duration="3531000" />
-      <workItem from="1554203499961" duration="5410000" />
+      <workItem from="1554203499961" duration="6645000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8941000" />
+    <option name="totallyTimeSpent" value="10176000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="171" y="116" width="1229" height="841" extended-state="0" />
+    <frame x="169" y="165" width="1229" height="841" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22583404" />
@@ -270,7 +198,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.09476662" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.046676096" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32956153" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
@@ -397,14 +325,6 @@
         <state relative-caret-position="-216" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yufan_gateway/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-413" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yufan_common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/yufan_cart/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1368" />
@@ -418,11 +338,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/yufan_api/yufan_cart_api/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yufan_cart/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-377" />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yufan_sms/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
@@ -438,22 +353,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yufan_user/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/yufan_item/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="9" column="14" lean-forward="true" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yufan_registry/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/yufan_item/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/yufan_user/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="9" column="15" lean-forward="true" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yufan_gateway/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yufan_common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yufan_cart/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
