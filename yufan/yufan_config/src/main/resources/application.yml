@@ -1,0 +1,15 @@
+server:
+  port: 6789
+spring:
+  application:
+    name: service-config
+  cloud:
+    config:
+      server:
+        git:
+          password:
+          username:
+          uri: https://git.dev.tencent.com/SunRains/SpringClound.git
+logging:
+  level:
+    root: info

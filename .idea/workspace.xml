@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3bcf819e-a871-4139-938e-b6a451858d5b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_javaewah_JavaEWAH_1_1_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jcraft_jsch_0_1_54.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jgit_org_eclipse_jgit_4_8_0_201706111038_r.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_client_2_0_0_M9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_server_2_0_0_M9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yufan/yufan_config/src/main/java/org/yufan/config/ConfigApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yufan/yufan_config/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yufan/config/config.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yufan/config/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yufan/yufan_config/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yufan/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yufan/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yufan/yufan_config/config.iml" beforeDir="false" afterPath="$PROJECT_DIR$/yufan/yufan_config/config.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yufan/yufan_config/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/yufan/yufan_config/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/yufan/yufan_gateway/target/" />
     <ignored path="$PROJECT_DIR$/yufan/yufan_common/target/" />
@@ -41,16 +47,44 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/yufan/yufan_config/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yufan/yufan_config/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="231">
-              <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+              <caret line="11" column="68" selection-start-line="11" selection-start-column="68" selection-end-line="11" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/yufan/yufan_config/src/main/java/org/yufan/config/ConfigApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -59,6 +93,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/yufan/pom.xml" />
+        <option value="$PROJECT_DIR$/yufan/yufan_config/pom.xml" />
+        <option value="$PROJECT_DIR$/yufan/yufan_config/src/main/java/org/yufan/config/ConfigApplication.java" />
+        <option value="$PROJECT_DIR$/yufan/yufan_config/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -92,6 +129,73 @@
               <item name="SpringClound" type="462c0819:PsiDirectoryNode" />
               <item name="yufan" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="SpringClound" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringClound" type="462c0819:PsiDirectoryNode" />
+              <item name="yufan" type="462c0819:PsiDirectoryNode" />
+              <item name="yufan_api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringClound" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringClound" type="462c0819:PsiDirectoryNode" />
+              <item name="yufan" type="462c0819:PsiDirectoryNode" />
+              <item name="yufan_cart" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringClound" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringClound" type="462c0819:PsiDirectoryNode" />
+              <item name="yufan" type="462c0819:PsiDirectoryNode" />
+              <item name="yufan_common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringClound" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringClound" type="462c0819:PsiDirectoryNode" />
+              <item name="yufan" type="462c0819:PsiDirectoryNode" />
+              <item name="yufan_config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringClound" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringClound" type="462c0819:PsiDirectoryNode" />
+              <item name="yufan" type="462c0819:PsiDirectoryNode" />
+              <item name="yufan_config" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringClound" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringClound" type="462c0819:PsiDirectoryNode" />
+              <item name="yufan" type="462c0819:PsiDirectoryNode" />
+              <item name="yufan_config" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringClound" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringClound" type="462c0819:PsiDirectoryNode" />
+              <item name="yufan" type="462c0819:PsiDirectoryNode" />
+              <item name="yufan_config" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringClound" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringClound" type="462c0819:PsiDirectoryNode" />
+              <item name="yufan" type="462c0819:PsiDirectoryNode" />
+              <item name="yufan_config" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringClound" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringClound" type="462c0819:PsiDirectoryNode" />
+              <item name="yufan" type="462c0819:PsiDirectoryNode" />
+              <item name="yufan_config" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -106,7 +210,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554173685555" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554177139670" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -127,7 +231,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.CartApplication">
+  <component name="RunManager" selected="Spring Boot.ConfigApplication">
     <configuration name="CartApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="yufan_cart" />
       <extension name="coverage">
@@ -137,6 +241,19 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.yufan.CartApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="config" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.yufan.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.yufan.config.ConfigApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -177,6 +294,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ConfigApplication" />
         <item itemvalue="Spring Boot.CartApplication" />
         <item itemvalue="Spring Boot.RegisterApplication" />
       </list>
@@ -192,16 +310,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554169912853</updated>
-      <workItem from="1554169914106" duration="3588000" />
+      <workItem from="1554169914106" duration="6895000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3588000" />
+    <option name="totallyTimeSpent" value="6895000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1455" height="935" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -209,19 +326,19 @@
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Web" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24946237" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24946237" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" visible="true" weight="0.08094645" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.09175627" side_tool="true" visible="true" weight="0.6562889" />
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3599004" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.9082437" visible="true" weight="0.6562889" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -269,24 +386,45 @@
     <entry file="file://$PROJECT_DIR$/yufan/yufan_api/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/yufan/yufan_cart/src/main/java/org/yufan/cart/controller/CartController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yufan/yufan_parent.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="82" column="9" lean-forward="true" selection-start-line="82" selection-start-column="9" selection-end-line="82" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yufan/yufan_cart/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="7" column="39" lean-forward="true" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/maven-4.0.0.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="1546" column="6" selection-start-line="1546" selection-start-column="6" selection-end-line="1546" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/yufan/yufan_cart/src/main/java/org/yufan/CartApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="231">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yufan/yufan_cart/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="18" column="25" lean-forward="true" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yufan/yufan_cart/src/main/java/org/yufan/cart/controller/CartController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="26" column="25" lean-forward="true" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+        <state relative-caret-position="315">
+          <caret line="15" column="49" lean-forward="true" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -299,8 +437,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/yufan/yufan_config/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yufan/yufan_config/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
-          <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+          <caret line="11" column="68" selection-start-line="11" selection-start-column="68" selection-end-line="11" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yufan/yufan_config/src/main/java/org/yufan/config/ConfigApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
