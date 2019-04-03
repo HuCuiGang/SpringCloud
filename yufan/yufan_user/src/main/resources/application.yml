@@ -5,9 +5,9 @@ spring:
      name: yufan-user-service
   datasource:
      driverClassName: com.mysql.jdbc.Driver
-     url: jdbc:mysql://127.0.0.1:3306/sso?characterEncoding=utf-8
+     url: jdbc:mysql://127.0.0.1:3306/yufan?characterEncoding=utf-8
      username: root
-     password: root
+     password:
   jpa:
      database: MySQL
      show-sql: true
@@ -25,8 +25,8 @@ spring:
           max-interval: 210000ms
           multiplier: 2
      publisher-confirms: true
-     username: yufan
-     password: 123456
+     username: guest
+     password: guest
 eureka:
   client:
     service-url:
