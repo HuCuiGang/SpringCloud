@@ -6,8 +6,8 @@ spring:
   rabbitmq:
     host: 127.0.0.1
     virtual-host: /yufan
-    username: yufan
-    password: 123456
+    username: guest
+    password: guest
     listener:
         simple:
           acknowledge-mode: manual  #手动签收
