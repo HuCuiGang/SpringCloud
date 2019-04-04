@@ -16,7 +16,7 @@ log
 *.iws
 *.iml
 *.ipr
-
+yufan/.idea/workspace.xml
 ### NetBeans ###
 /nbproject/private/
 /nbbuild/
