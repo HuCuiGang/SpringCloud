@@ -1,7 +1,0 @@
-spring:
-  cloud:
-    config:
-      name: yufan-cart-service
-      profile: dev
-      label: ls
-      uri: http://localhost:6789

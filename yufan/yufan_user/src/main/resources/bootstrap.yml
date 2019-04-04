@@ -1,8 +1,0 @@
-spring:
-  cloud:
-    config:
-      name: yufan-user-service
-      profile: dev
-      label: ls
-      uri: http://localhost:6789
-
