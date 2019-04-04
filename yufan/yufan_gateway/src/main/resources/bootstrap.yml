@@ -1,7 +1,7 @@
 spring:
   cloud:
     config:
-      name:  yufan-item-service
+      name:  yufan-gateway
       profile: dev
       label: ls
       uri: http://localhost:6789
