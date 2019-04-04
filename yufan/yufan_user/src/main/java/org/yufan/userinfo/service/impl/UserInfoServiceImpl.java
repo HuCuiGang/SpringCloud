@@ -7,6 +7,7 @@ import org.yufan.userinfo.bean.UserInfo;
 import org.yufan.userinfo.repository.UserInfoRepository;
 import org.yufan.userinfo.service.UserInfoService;
 
+import java.util.Optional;
 
 
 /**
@@ -15,7 +16,6 @@ import org.yufan.userinfo.service.UserInfoService;
  */
 @Service
 @Transactional
-@javax.transaction.Transactional
 public class UserInfoServiceImpl implements UserInfoService {
 
     @Autowired
@@ -28,9 +28,10 @@ public class UserInfoServiceImpl implements UserInfoService {
     }
 
     @Override
-    public UserInfo findOne(Long id) {
+    public UserInfo findOne(Long userId) {
 
-        UserInfo userInfo = userInfoRepository.getOne(id);
+        UserInfo userInfo=userInfoRepository.findUserInfoByUserId(userId);
+
         return userInfo;
     }
 

@@ -1,6 +1,7 @@
 package org.yufan.userinfo.controller;
 
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.StringUtils;
 import org.springframework.validation.BindingResult;
@@ -74,6 +75,7 @@ public class UserInfoController {
         }
 
         userInfo.setId(orderUserInfo.getId());
+        userInfo.setUserId(orderUserInfo.getUserId());
         UserInfo result= userInfoService.save(userInfo);
         if (result==null){
             log.info("用户信息保存失败！");

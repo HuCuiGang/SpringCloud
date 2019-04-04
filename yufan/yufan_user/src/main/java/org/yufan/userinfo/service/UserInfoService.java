@@ -10,6 +10,6 @@ public interface UserInfoService {
 
     public UserInfo save(UserInfo userInfo);
 
-    public UserInfo findOne(Long id);
+    public UserInfo findOne(Long userId);
 
 }

@@ -9,4 +9,6 @@ import org.yufan.userinfo.bean.UserInfo;
  */
 public interface UserInfoRepository extends JpaRepository<UserInfo,Long> {
 
+    public UserInfo findUserInfoByUserId(Long userId);
+
 }

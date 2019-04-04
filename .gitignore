@@ -12,12 +12,12 @@ HELP.md
 .settings
 .springBeans
 .sts4-cache
+log
 ### IntelliJ IDEA ###
 .idea
 *.iws
 *.iml
 *.ipr
-*.log
 ### NetBeans ###
 /nbproject/private/
 /nbbuild/
@@ -25,5 +25,6 @@ HELP.md
 /nbdist/
 /.nb-gradle/
 /build/
+
 ### VS Code ###
 .vscode/
