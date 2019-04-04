@@ -24,6 +24,7 @@ public enum ResultEnum {
     EMAIL_NOT_EMPTY(200016,"邮箱不能为空"),
     PHONE_ERROR(200017,"手机号码格式不符合"),
 
+
     FAIL(50000,"请求失败,系统开小差了!");
 
     ResultEnum(int code, String msg){

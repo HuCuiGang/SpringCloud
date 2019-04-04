@@ -15,7 +15,7 @@ import javax.validation.constraints.Pattern;
 import java.util.Date;
 
 @Entity
-@Table(name = "tb_user")
+@Table(name = "user")
 @Getter
 @Setter
 public class User {
@@ -43,8 +43,8 @@ public class User {
 
      @JsonIgnore
      private String salt;
-     private Date created;
-     private Date updated;
+     private Date createTime;
+     private Date updateTime;
 
 
 }
