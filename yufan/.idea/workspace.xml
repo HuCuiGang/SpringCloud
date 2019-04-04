@@ -57,11 +57,11 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="812" />
-    <option name="y" value="152" />
-    <option name="width" value="1940" />
-    <option name="height" value="987" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="160" />
+    <option name="y" value="180" />
+    <option name="width" value="1612" />
+    <option name="height" value="910" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -75,246 +75,6 @@
             <path>
               <item name="yufan_parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="yufan" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yufan_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yufan" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yufan_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yufan" type="462c0819:PsiDirectoryNode" />
-              <item name="yufan_api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yufan_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yufan" type="462c0819:PsiDirectoryNode" />
-              <item name="yufan_api" type="462c0819:PsiDirectoryNode" />
-              <item name="yufan_user_api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yufan_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yufan" type="462c0819:PsiDirectoryNode" />
-              <item name="yufan_api" type="462c0819:PsiDirectoryNode" />
-              <item name="yufan_user_api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yufan_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yufan" type="462c0819:PsiDirectoryNode" />
-              <item name="yufan_api" type="462c0819:PsiDirectoryNode" />
-              <item name="yufan_user_api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yufan_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yufan" type="462c0819:PsiDirectoryNode" />
-              <item name="yufan_api" type="462c0819:PsiDirectoryNode" />
-              <item name="yufan_user_api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yufan_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yufan" type="462c0819:PsiDirectoryNode" />
-              <item name="yufan_api" type="462c0819:PsiDirectoryNode" />
-              <item name="yufan_user_api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yufan_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yufan" type="462c0819:PsiDirectoryNode" />
-              <item name="yufan_api" type="462c0819:PsiDirectoryNode" />
-              <item name="yufan_user_api" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="bean" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yufan_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yufan" type="462c0819:PsiDirectoryNode" />
-              <item name="yufan_gateway" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yufan_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yufan" type="462c0819:PsiDirectoryNode" />
-              <item name="yufan_gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yufan_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yufan" type="462c0819:PsiDirectoryNode" />
-              <item name="yufan_gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yufan_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yufan" type="462c0819:PsiDirectoryNode" />
-              <item name="yufan_gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yufan_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yufan" type="462c0819:PsiDirectoryNode" />
-              <item name="yufan_user" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yufan_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yufan" type="462c0819:PsiDirectoryNode" />
-              <item name="yufan_user" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yufan_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yufan" type="462c0819:PsiDirectoryNode" />
-              <item name="yufan_user" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yufan_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yufan" type="462c0819:PsiDirectoryNode" />
-              <item name="yufan_user" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yufan_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yufan" type="462c0819:PsiDirectoryNode" />
-              <item name="yufan_user" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="yufan" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yufan_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yufan" type="462c0819:PsiDirectoryNode" />
-              <item name="yufan_user" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="yufan" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yufan_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yufan" type="462c0819:PsiDirectoryNode" />
-              <item name="yufan_user" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="yufan" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yufan_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yufan" type="462c0819:PsiDirectoryNode" />
-              <item name="yufan_user" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="yufan" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yufan_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yufan" type="462c0819:PsiDirectoryNode" />
-              <item name="yufan_user" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="yufan" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yufan_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yufan" type="462c0819:PsiDirectoryNode" />
-              <item name="yufan_user" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="yufan" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yufan_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yufan" type="462c0819:PsiDirectoryNode" />
-              <item name="yufan_user" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="yufan" type="462c0819:PsiDirectoryNode" />
-              <item name="userinfo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yufan_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yufan" type="462c0819:PsiDirectoryNode" />
-              <item name="yufan_user" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="yufan" type="462c0819:PsiDirectoryNode" />
-              <item name="userinfo" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yufan_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yufan" type="462c0819:PsiDirectoryNode" />
-              <item name="yufan_user" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="yufan" type="462c0819:PsiDirectoryNode" />
-              <item name="userinfo" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yufan_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yufan" type="462c0819:PsiDirectoryNode" />
-              <item name="yufan_user" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="yufan" type="462c0819:PsiDirectoryNode" />
-              <item name="userinfo" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yufan_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yufan" type="462c0819:PsiDirectoryNode" />
-              <item name="yufan_user" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="yufan" type="462c0819:PsiDirectoryNode" />
-              <item name="userinfo" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="yufan_parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yufan" type="462c0819:PsiDirectoryNode" />
-              <item name="yufan_user" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -331,7 +91,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554355817716" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554356236728" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -401,17 +161,17 @@
       <workItem from="1554123779548" duration="3531000" />
       <workItem from="1554203499961" duration="15589000" />
       <workItem from="1554291065263" duration="17483000" />
-      <workItem from="1554355282676" duration="793000" />
+      <workItem from="1554355282676" duration="1500000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45872000" />
+    <option name="totallyTimeSpent" value="46579000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="160" y="180" width="1612" height="910" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26180258" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31688312" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -427,7 +187,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.04217536" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.0781457" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.32956153" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
