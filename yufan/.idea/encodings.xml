@@ -5,9 +5,11 @@
     <file url="file://$PROJECT_DIR$/yufan_api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yufan_api/yufan_cart_api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yufan_api/yufan_item_api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yufan_api/yufan_order_api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yufan_api/yufan_user_api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yufan_cart" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yufan_common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yufan_config" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yufan_gateway" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yufan_item" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yufan_order" charset="UTF-8" />

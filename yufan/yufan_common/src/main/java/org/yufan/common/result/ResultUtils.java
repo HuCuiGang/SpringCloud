@@ -10,6 +10,10 @@ public class ResultUtils {
       return buildSuccess(ResultEnum.OK,null);
     }
 
+    public static Result buildSuccess(Object data){
+        return buildSuccess(ResultEnum.OK,data);
+    }
+
     /**
      * 请求成功
      * @param resultEnum 成功枚举

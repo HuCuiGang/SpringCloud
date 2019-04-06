@@ -4,7 +4,6 @@ import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Getter;
 import lombok.Setter;
-
 import java.io.Serializable;
 import java.util.Date;
 
@@ -12,21 +11,13 @@ import java.util.Date;
 @Setter
 @ApiModel(value = "购物车实体")
 public class Cart implements Serializable {
-    @ApiModelProperty(value = "商品id",required = true,dataType = "Long")
     private Long itemId;
-    @ApiModelProperty(value = "用户id",required = true,dataType = "Long")
     private Long userId;
-    @ApiModelProperty(value = "商品标题",required = true)
     private String itemTitle;
-    @ApiModelProperty(value = "商品图片",required = true)
     private String itemImage;
-    @ApiModelProperty(value = "商品价格(分)",required = true,dataType = "Long")
     private Long itemPrice;
-    @ApiModelProperty(value = "商品数量",required = true,dataType = "Integer")
     private Integer num;
-    @ApiModelProperty(hidden = true)
     private Date created;
-    @ApiModelProperty(hidden = true)
     private Date updated;
 
 

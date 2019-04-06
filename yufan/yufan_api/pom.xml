@@ -15,6 +15,7 @@
         <module>yufan_user_api</module>
         <module>yufan_item_api</module>
         <module>yufan_cart_api</module>
+        <module>yufan_order_api</module>
     </modules>
 
 

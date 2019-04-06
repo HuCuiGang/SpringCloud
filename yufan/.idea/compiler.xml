@@ -9,9 +9,13 @@
         <module name="yufan_cart" />
         <module name="yufan_cart_api" />
         <module name="yufan_common" />
+        <module name="yufan_config" />
         <module name="yufan_gateway" />
         <module name="yufan_item" />
         <module name="yufan_item_api" />
+        <module name="yufan_order" />
+        <module name="yufan_order_api" />
+        <module name="yufan_pay" />
         <module name="yufan_registry" />
         <module name="yufan_sms" />
         <module name="yufan_user" />
