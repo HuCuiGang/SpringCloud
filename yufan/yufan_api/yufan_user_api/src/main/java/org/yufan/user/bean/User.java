@@ -15,7 +15,7 @@ import javax.validation.constraints.Pattern;
 import java.util.Date;
 
 @Entity
-@Table(name = "tb_user")
+@Table(name = "yf_user")
 @Getter
 @Setter
 public class User {

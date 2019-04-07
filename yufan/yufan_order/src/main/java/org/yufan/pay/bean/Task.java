@@ -1,4 +1,4 @@
-package org.yufan.order.bean;
+package org.yufan.pay.bean;
 
 
 import lombok.Data;

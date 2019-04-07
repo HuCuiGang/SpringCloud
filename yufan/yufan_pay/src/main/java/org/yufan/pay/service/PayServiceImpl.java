@@ -47,8 +47,6 @@ public class PayServiceImpl implements PayService{
     @Autowired
     private HttpServletRequest request;
 
-    @Autowired
-    private HttpServletResponse response;
 
     @Autowired
     private OrderClient orderClient;
@@ -88,7 +86,7 @@ public class PayServiceImpl implements PayService{
         return payToken;
     }
 
-    private void buildPcPay(String orderId, BigDecimal totalAmount, String orderName, String itemDescribe) throws CustomerException {
+    private void buildPcPay(HttpServletResponse response,String orderId, BigDecimal totalAmount, String orderName, String itemDescribe) throws CustomerException {
         try {
             log.info("支付订单号:{}", orderId);
             log.info("支付金额:{}", totalAmount);
@@ -118,7 +116,7 @@ public class PayServiceImpl implements PayService{
     }
 
 
-    private void buildMobilePay(String orderId, BigDecimal totalAmount, String orderName, String itemDescribe) throws CustomerException {
+    private void buildMobilePay(HttpServletResponse response,String orderId, BigDecimal totalAmount, String orderName, String itemDescribe) throws CustomerException {
         try {
             log.info("支付订单号:{}", orderId);
             log.info("支付金额:{}", totalAmount);
@@ -184,7 +182,7 @@ public class PayServiceImpl implements PayService{
     }
 
     @Override
-    public void pay(String payToken,Integer payType) throws CustomerException {
+    public void pay(String payToken,Integer payType,HttpServletResponse response) throws CustomerException {
         if(StringUtils.isEmpty(payToken)){
             log.error("支付token不能为空");
             throw  new CustomerException(ResultEnum.PAY_TOKEN_NOT_EMPTY);
@@ -201,10 +199,10 @@ public class PayServiceImpl implements PayService{
         }
         if(payType.equals(PayTypeEnum.PC.getCode())){
             log.info("电脑网页支付...");
-            buildPcPay(payLog.getOutTradeNo(), BigDecimal.valueOf(payLog.getTotalFee()).divide(BigDecimal.valueOf(100)), "羽帆商城订单", null);
+            buildPcPay(response,payLog.getOutTradeNo(), BigDecimal.valueOf(payLog.getTotalFee()).divide(BigDecimal.valueOf(100)), "羽帆商城订单", null);
         }else if (payType.equals(PayTypeEnum.MOBILE.getCode())){
             log.info("手机app支付...");
-            buildMobilePay(payLog.getOutTradeNo(), BigDecimal.valueOf(payLog.getTotalFee()).divide(BigDecimal.valueOf(100)), "羽帆商城订单", null);
+            buildMobilePay(response,payLog.getOutTradeNo(), BigDecimal.valueOf(payLog.getTotalFee()).divide(BigDecimal.valueOf(100)), "羽帆商城订单", null);
         }else if(payType.equals(PayTypeEnum.MOBILE_WEB.getCode())){
             log.info("手机网页支付...");
             //TODO...

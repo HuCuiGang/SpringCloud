@@ -6,7 +6,7 @@ import lombok.Getter;
 import java.util.Date;
 import javax.persistence.*;
 
-@Table(name = "yufan_pay_log")
+@Table(name = "yf_pay_log")
 @Entity
 @Data
 public class PayLog {

@@ -15,6 +15,7 @@ import org.yufan.common.result.ResultEnum;
 import org.yufan.common.result.ResultUtils;
 import org.yufan.pay.service.PayService;
 
+import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
@@ -54,8 +55,8 @@ public class PayController {
      * @throws IOException
      */
     @RequestMapping("/pay/create")
-    public void pay(@RequestParam("payToken")  String payToken,Integer payType) throws CustomerException, IOException {
-        payService.pay(payToken,payType);
+    public void pay(@RequestParam("payToken")  String payToken, Integer payType, HttpServletResponse response) throws CustomerException, IOException {
+        payService.pay(payToken,payType,response);
     }
 
     //同步通知

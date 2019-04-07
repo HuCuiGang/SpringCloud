@@ -1,16 +1,13 @@
 package org.yufan.order.bean;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Getter;
 import lombok.Setter;
 
-import java.util.ArrayList;
 import java.util.Date;
-import java.util.List;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "yufan_order")
+@Table(name = "yf_order")
 @Getter
 @Setter
 public class Order {

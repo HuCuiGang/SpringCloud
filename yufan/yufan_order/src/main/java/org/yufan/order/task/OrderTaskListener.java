@@ -6,7 +6,7 @@ import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 import org.springframework.util.ObjectUtils;
-import org.yufan.order.bean.Task;
+import org.yufan.pay.bean.Task;
 import org.yufan.order.config.RabbitMQConfig;
 import org.yufan.order.service.OrderService;
 

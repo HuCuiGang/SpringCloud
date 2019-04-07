@@ -2,7 +2,7 @@ package org.yufan.order.service;
 
 import org.yufan.common.exception.CustomerException;
 import org.yufan.order.bean.OrderDTO;
-import org.yufan.order.bean.Task;
+import org.yufan.pay.bean.Task;
 
 public interface OrderService {
 

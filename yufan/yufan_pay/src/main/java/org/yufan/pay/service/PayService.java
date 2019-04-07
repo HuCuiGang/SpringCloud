@@ -2,6 +2,7 @@ package org.yufan.pay.service;
 
 import org.yufan.common.exception.CustomerException;
 
+import javax.servlet.http.HttpServletResponse;
 import java.util.Map;
 
 /**
@@ -30,7 +31,7 @@ public interface PayService {
      * @param payToken
      * @return
      */
-    public void pay(String payToken,Integer payType) throws CustomerException;
+    public void pay(String payToken,Integer payType,HttpServletResponse response) throws CustomerException;
 
 
     /**

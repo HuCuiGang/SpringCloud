@@ -7,7 +7,7 @@ import java.util.Date;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "yufan_order_status")
+@Table(name = "yf_order_status")
 @Getter
 @Setter
 public class OrderStatus {

@@ -10,9 +10,7 @@ import org.yufan.pay.bean.Task;
 import org.yufan.pay.config.RabbitMQConfig;
 import org.yufan.pay.service.TaskService;
 
-import java.util.Calendar;
 import java.util.Date;
-import java.util.GregorianCalendar;
 import java.util.List;
 
 /**
@@ -26,14 +24,12 @@ public class OrderTask {
     private TaskService taskService;
 
     //3秒执行一次
-    @Scheduled(cron="0/3 * * * * *")
-    //定时发送加选课任务
+    @Scheduled(cron="0/10 * * * * *")
+    //定时发送修改订单任务
     public void sendOrderTask(){
         //得到1分钟之前的时间
-        Calendar calendar = new GregorianCalendar();
-        calendar.setTime(new Date());
-        calendar.set(GregorianCalendar.MINUTE,-1);
-        Date time = calendar.getTime();
+        Long date=new Date().getTime()-1000*60;
+        Date time =new Date(date);
         List<Task> taskList = taskService.findTaskList(time, 100);
         log.info("需要要发送的任务;{}",taskList);
 
