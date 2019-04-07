@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      name:  yufan-gateway
+      profile: dev
+      label: ls
+      uri: http://localhost:6789

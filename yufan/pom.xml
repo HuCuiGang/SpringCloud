@@ -18,6 +18,7 @@
         <module>yufan_order</module>
         <module>yufan_pay</module>
         <module>yufan_user</module>
+        <module>yufan_config</module>
     </modules>
 
     <packaging>pom</packaging>
