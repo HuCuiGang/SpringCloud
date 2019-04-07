@@ -3,5 +3,5 @@ spring:
     config:
       name:  yufan-item-service
       profile: dev
-      label: master
+      label: v3.0
       uri: http://localhost:6789

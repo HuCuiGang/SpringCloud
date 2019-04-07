@@ -33,3 +33,6 @@ rabbitmq:
     username: guest
     password: guest
     virtual-host: /
+tx-lcn:
+  client:
+    manager-address: 127.0.0.1:8070
