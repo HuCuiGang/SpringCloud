@@ -1,11 +1,13 @@
 package org.yufan.order.api;
 
+import com.codingapi.txlcn.commons.annotation.LcnTransaction;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.*;
 import org.yufan.common.utils.JsonUtils;
 import org.yufan.order.bean.Order;
+import org.yufan.order.bean.OrderShipping;
 import org.yufan.order.bean.OrderStatus;
 import org.yufan.order.client.ItemClient;
 import org.yufan.order.eums.OrderStatusEnum;
@@ -13,6 +15,7 @@ import org.yufan.order.repository.OrderRepository;
 import org.yufan.order.repository.OrderShippingRepository;
 import org.yufan.order.repository.OrderStatusRepository;
 
+import java.util.Random;
 
 
 @RequestMapping("/api/order")
@@ -29,6 +32,7 @@ public class OrderApiService implements OrderApi{
 
     @Autowired
     private  OrderShippingRepository orderShippingRepository;
+
 
 
     @GetMapping("/{orderId}")
@@ -63,17 +67,21 @@ public class OrderApiService implements OrderApi{
     }
 
     @PostMapping("/state/{orderId}")
+    @LcnTransaction
     @Transactional
     public Boolean changeOrderStatePay(@PathVariable("orderId") String orderId) {
         log.info("修改订单状态的订单为:{}",orderId);
-        if(orderStatusRepository.changeOrderState(OrderStatusEnum.PAYMENT.getCode(),
-                orderId,OrderStatusEnum.NO_PAYMENT.getCode())>0){
-            log.info("修改订单状态为支付成功!");
-            return true;
-        }
+        //测试分布式事物
+        OrderShipping orderShipping =new OrderShipping();
+        orderShipping.setOrderId("sadsads"+new Random().nextInt(100));
+        orderShipping.setReceiverName("测试分布式事物");
+        orderShippingRepository.save(orderShipping);
         log.error("修改订单状态失败");
         return false;
     }
+
+
+
 
 
 

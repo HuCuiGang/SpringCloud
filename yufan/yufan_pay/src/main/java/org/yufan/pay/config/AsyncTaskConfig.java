@@ -1,6 +1,7 @@
 package org.yufan.pay.config;
 
 import org.springframework.aop.interceptor.AsyncUncaughtExceptionHandler;
+import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.scheduling.annotation.AsyncConfigurer;
@@ -20,7 +21,8 @@ public class AsyncTaskConfig implements SchedulingConfigurer, AsyncConfigurer {
     //线程池线程数量
     private int corePoolSize = 6;
 
-    @Bean
+    //@ConditionalOnMissingBean
+   // @Bean
     public ThreadPoolTaskScheduler taskScheduler()
     {
         ThreadPoolTaskScheduler scheduler = new ThreadPoolTaskScheduler();

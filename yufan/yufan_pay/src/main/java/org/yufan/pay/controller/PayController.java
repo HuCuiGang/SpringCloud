@@ -1,18 +1,21 @@
 package org.yufan.pay.controller;
 
+import com.codingapi.txlcn.commons.annotation.LcnTransaction;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.transaction.annotation.Transactional;
+import org.springframework.web.bind.annotation.*;
 import org.yufan.common.exception.CustomerException;
 import org.yufan.common.lock.Lock;
 import org.yufan.common.lock.ZookeeperDistrbuteLock;
 import org.yufan.common.result.Result;
 import org.yufan.common.result.ResultEnum;
 import org.yufan.common.result.ResultUtils;
+import org.yufan.order.bean.OrderShipping;
+import org.yufan.pay.bean.PayLog;
+import org.yufan.pay.client.OrderClient;
+import org.yufan.pay.repository.PayRepository;
 import org.yufan.pay.service.PayService;
 
 import javax.servlet.http.HttpServletResponse;
@@ -29,6 +32,12 @@ public class PayController {
 
     @Autowired
     private PayService payService;
+
+    @Autowired
+    private OrderClient orderClient;
+
+    @Autowired
+    private PayRepository payRepository;
 
     private Lock lock = new ZookeeperDistrbuteLock("/payLock");
 
@@ -109,5 +118,21 @@ public class PayController {
         }
     }
 
+
+    @GetMapping("/transaction")
+    @LcnTransaction
+    @Transactional
+    public boolean transactionTest(){
+
+        PayLog payLog =new PayLog();
+        payLog.setOutTradeNo("分布式事务");
+        payLog.setTransactionId("xxxxxxxxx1");
+
+        orderClient.changeOrderStatePay("001");
+
+        //int x=1/0;
+        payRepository.save(payLog);
+        return true;
+    }
 
 }

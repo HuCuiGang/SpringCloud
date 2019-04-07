@@ -18,6 +18,7 @@
         <module name="yufan_pay" />
         <module name="yufan_registry" />
         <module name="yufan_sms" />
+        <module name="yufan_tx_manager" />
         <module name="yufan_user" />
         <module name="yufan_user_api" />
       </profile>

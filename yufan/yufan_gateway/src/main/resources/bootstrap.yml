@@ -3,5 +3,5 @@ spring:
     config:
       name:  yufan-gateway
       profile: dev
-      label: master
+      label: v3.0
       uri: http://localhost:6789
