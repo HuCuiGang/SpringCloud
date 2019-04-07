@@ -50,8 +50,8 @@ public class UserServiceImpl implements UserService {
         //4.密码加密
         String md5Password=md5Password(user.getPassword(),salt);
 
-        user.setCreateTime(new Date());
-        user.setUpdateTime(user.getCreateTime());
+        user.setCreated(new Date());
+        user.setUpdated(user.getCreated());
         user.setSalt(salt);
         user.setPassword(md5Password);
         userRepository.save(user);

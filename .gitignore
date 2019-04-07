@@ -1,7 +1,5 @@
-HELP.md
 /target/
 !.mvn/wrapper/maven-wrapper.jar
-<<<<<<< HEAD
 *.class
 *.lst
 *.jar
@@ -26,8 +24,6 @@ HELP.md
 /yufan/yufan_pay/target/
 /yufan/yufan_config/target/
 /yufan/.idea/
-=======
->>>>>>> 23a132ed832f06d1bac6d76b2baf9d24c3cdd3d2
 
 ### STS ###
 .apt_generated
@@ -37,21 +33,20 @@ HELP.md
 .settings
 .springBeans
 .sts4-cache
-log
+
+
 ### IntelliJ IDEA ###
 .idea
 *.iws
 *.iml
 *.ipr
-yufan/.idea/workspace.xml
+*.jar
+
+
 ### NetBeans ###
 /nbproject/private/
+/build/
 /nbbuild/
 /dist/
 /nbdist/
 /.nb-gradle/
-/build/
-/.idea/
-/log/
-### VS Code ###
-.vscode/

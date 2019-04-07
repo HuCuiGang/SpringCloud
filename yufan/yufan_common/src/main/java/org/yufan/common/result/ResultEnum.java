@@ -23,7 +23,6 @@ public enum ResultEnum {
     USER_NOT_EMPTY(200015,"用户名信息为空"),
     EMAIL_NOT_EMPTY(200016,"邮箱不能为空"),
     PHONE_ERROR(200017,"手机号码格式不符合"),
-<<<<<<< HEAD
     ITEM_NOT_EMPTY(200018,"商品为空"),
     ITEM_EXIST(200019,"商品已经存在"),
     ORDER_CREATE_VALID(200020,"创建订单参数不正确"),
@@ -42,11 +41,6 @@ public enum ResultEnum {
     SEARCH_ITEM_HTTP_ADDRESS(200040,"同步商品的接口地址为空"),
     SEARCH_CATEGORY_SEARCH_EMPTY(200041,"目录为空"),
     SEARCH_ITEM_HTTP_DATA(200042,"同步商品的数据为空");
-=======
-
-
-    FAIL(50000,"请求失败,系统开小差了!");
->>>>>>> 23a132ed832f06d1bac6d76b2baf9d24c3cdd3d2
 
     ResultEnum(int code, String msg){
         this.code = code;
