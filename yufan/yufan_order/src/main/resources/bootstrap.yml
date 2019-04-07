@@ -12,6 +12,8 @@ spring:
     database: MySQL
     show-sql: true
     generate-ddl: true
+    hibernate:
+      ddl-auto: validate
 redis:
   pool:
     max-active: 10
@@ -27,6 +29,9 @@ eureka:
     prefer-ip-address: true
     ip-address: 127.0.0.1
     instance-id: ${spring.application.name}:${server.port}
-tx-lcn:
-  client:
-    manager-address: 127.0.0.1:8070
+rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
+    virtual-host: /
