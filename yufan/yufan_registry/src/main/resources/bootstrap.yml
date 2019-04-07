@@ -2,6 +2,6 @@ spring:
   cloud:
     config:
       name: yufan-registry
-      profile: test
-      label: ls
+      profile: dev
+      label: master
       uri: http://localhost:6789

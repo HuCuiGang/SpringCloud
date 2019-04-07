@@ -3,6 +3,6 @@ spring:
     config:
       name: yufan-user-service
       profile: dev
-      label: ls
+      label: master
       uri: http://localhost:6789
 
