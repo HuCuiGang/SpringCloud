@@ -130,7 +130,7 @@ public class PayController {
 
         orderClient.changeOrderStatePay("001");
 
-        int x=1/0;
+        //int x=1/0;
         payRepository.save(payLog);
         return true;
     }

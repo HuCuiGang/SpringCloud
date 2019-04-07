@@ -20,6 +20,7 @@
             <artifactId>tx-client-springcloud</artifactId>
             <version>5.0.0.RC1</version>
             <exclusions>
+
                 <exclusion>
                     <groupId>org.springframework.cloud</groupId>
                     <artifactId>spring-cloud-dependencies</artifactId>
