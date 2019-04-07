@@ -1,7 +1,0 @@
-spring:
-  cloud:
-    config:
-      name:  yufan-item-service
-      profile: dev
-      label: master
-      uri: http://localhost:6789
