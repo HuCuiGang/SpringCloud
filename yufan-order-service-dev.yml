@@ -1,4 +1,4 @@
-server:
+﻿server:
   port: 9006
 spring:
   application:
@@ -12,8 +12,6 @@ spring:
     database: MySQL
     show-sql: true
     generate-ddl: true
-    hibernate:
-      ddl-auto: validate
 redis:
   pool:
     max-active: 10
