@@ -23,4 +23,18 @@
       </profile>
     </annotationProcessing>
   </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="yufan_cart" options="-parameters" />
+      <module name="yufan_cart_api" options="-parameters" />
+      <module name="yufan_common" options="-parameters" />
+      <module name="yufan_gateway" options="-parameters" />
+      <module name="yufan_item" options="-parameters" />
+      <module name="yufan_item_api" options="-parameters" />
+      <module name="yufan_registry" options="-parameters" />
+      <module name="yufan_sms" options="-parameters" />
+      <module name="yufan_user" options="-parameters" />
+      <module name="yufan_user_api" options="-parameters" />
+    </option>
+  </component>
 </project>
