@@ -7,7 +7,7 @@ spring:
       charset: utf-8
       enabled: true
   application:
-     name: yufan-pay
+     name: yufan-pay-service
   datasource:
      driverClassName: com.mysql.jdbc.Driver
      url: jdbc:mysql://127.0.0.1:3306/springcloud?characterEncoding=utf-8
