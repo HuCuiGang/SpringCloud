@@ -4,4 +4,4 @@ spring:
       name: yufan-registry
       profile: dev
       label: v3.0
-      uri: http://localhost:6789
+      uri: http://172.17.0.2:6789

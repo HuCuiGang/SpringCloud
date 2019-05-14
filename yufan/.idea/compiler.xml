@@ -6,20 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="yufan_pay" />
+        <module name="yufan_item_api" />
         <module name="yufan_cart" />
-        <module name="yufan_cart_api" />
+        <module name="yufan_sms" />
         <module name="yufan_common" />
         <module name="yufan_config" />
-        <module name="yufan_gateway" />
-        <module name="yufan_item" />
-        <module name="yufan_item_api" />
         <module name="yufan_order" />
-        <module name="yufan_order_api" />
-        <module name="yufan_pay" />
+        <module name="yufan_gateway" />
         <module name="yufan_registry" />
-        <module name="yufan_sms" />
-        <module name="yufan_tx_manager" />
         <module name="yufan_user" />
+        <module name="yufan_item" />
+        <module name="yufan_tx_manager" />
+        <module name="yufan_order_api" />
+        <module name="yufan_cart_api" />
         <module name="yufan_user_api" />
       </profile>
     </annotationProcessing>
@@ -38,6 +38,7 @@
       <module name="yufan_pay" options="-parameters" />
       <module name="yufan_registry" options="-parameters" />
       <module name="yufan_sms" options="-parameters" />
+      <module name="yufan_tx_manager" options="-parameters" />
       <module name="yufan_user" options="-parameters" />
       <module name="yufan_user_api" options="-parameters" />
     </option>
