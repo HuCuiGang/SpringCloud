@@ -7,9 +7,9 @@ spring:
     config:
       server:
         git:
-          password: Hucuigang205218
-          username: HuCuiGang
-          uri: https://github.com/HuCuiGang/SpringClound.git
+          password: ZHAO19981216
+          username: siglle
+          uri: https://git.dev.tencent.com/SunRains/SpringClound.git
 logging:
   level:
     root: info

@@ -3,5 +3,5 @@ spring:
     config:
       name: yufan-registry
       profile: dev
-      label: master
-      uri: http://172.17.0.2:6789
+      label: v3.0
+      uri: http://127.0.0.1:6789
